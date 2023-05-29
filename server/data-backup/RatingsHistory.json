@@ -1,0 +1,33 @@
+[
+  {
+    "player_id": 1,
+    "timestamp": "2023-05-01T18:30:00Z",
+    "rating": 1010
+  },
+  {
+    "player_id": 2,
+    "timestamp": "2023-05-01T18:30:00Z",
+    "rating": 990
+  },
+  {
+    "player_id": 3,
+    "timestamp": "2023-05-02T10:45:00Z",
+    "rating": 995
+  },
+  {
+    "player_id": 1,
+    "timestamp": "2023-05-02T10:45:00Z",
+    "rating": 1015
+  },
+  {
+    "player_id": 2,
+    "timestamp": "2023-05-03T14:15:00Z",
+    "rating": 998
+  },
+  {
+    "player_id": 3,
+    "timestamp": "2023-05-03T14:15:00Z",
+    "rating": 987
+  }
+]
+

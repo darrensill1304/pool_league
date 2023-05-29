@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "current_rating": 1000
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "current_rating": 1100
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "current_rating": 950
+  },
+  {
+    "id": 4,
+    "name": "Emily Wilson",
+    "current_rating": 1200
+  },
+  {
+    "id": 5,
+    "name": "David Lee",
+    "current_rating": 1050
+  }
+]
+

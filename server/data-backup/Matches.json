@@ -1,0 +1,27 @@
+[
+  {
+    "match_id": 1,
+    "player1_id": 1,
+    "player2_id": 2,
+    "winner_id": 1,
+    "timestamp": "2023-05-01T18:30:00Z",
+    "score_change": 10
+  },
+  {
+    "match_id": 2,
+    "player1_id": 3,
+    "player2_id": 1,
+    "winner_id": 1,
+    "timestamp": "2023-05-02T10:45:00Z",
+    "score_change": 5
+  },
+  {
+    "match_id": 3,
+    "player1_id": 2,
+    "player2_id": 3,
+    "winner_id": 2,
+    "timestamp": "2023-05-03T14:15:00Z",
+    "score_change": 8
+  }
+]
+
