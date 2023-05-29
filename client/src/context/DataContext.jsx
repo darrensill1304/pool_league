@@ -12,23 +12,17 @@ export const DataProvider = ({ children }) => {
   let isLoadingData = false;
 
   useEffect(() => {
-    // Load data from JSON files when the component mounts
-    // const loadedUsers = loadDataFromFile('./data/Users.json');
-    // const loadedMatches = loadDataFromFile('./data/Matches.json');
-    // const loadedRatingHistory = loadDataFromFile('./data/RatingHistory.json');
-    //
-    // setUsers(loadedUsers || usersData);
-    // setMatches(loadedMatches || matchesData);
-    // setRatingHistory(loadedRatingHistory || ratingHistoryData);
     isLoadingData = true; 
     fetchAllData()
     .then((data) => {
         setUsers(data.users)
         setMatches(data.matches)
         setRatingHistory(data.ratingHistory)
+        isLoadingData = false
       })
       .catch((error) => {
         console.log(error);
+        isLoadingData = false;
       })
   }, []);
 
